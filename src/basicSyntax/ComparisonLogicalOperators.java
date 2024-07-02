@@ -27,7 +27,7 @@ public class ComparisonLogicalOperators {
 		
 		boolean hasPermission = true;
 		
-		boolean Answer = (hasPermission == false);
+		boolean Answer = !hasPermission;
 		
 		System.out.println(hasPermission);
 		
