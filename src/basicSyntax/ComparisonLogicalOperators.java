@@ -25,11 +25,11 @@ public class ComparisonLogicalOperators {
 		
 		System.out.println(isMoreOrEqual);
 		
-		boolean hasPermission = true;
+		boolean hasPermission = false;
 		
-		boolean Answer = !hasPermission;
+		boolean Answer = (hasPermission == false);
 		
-		System.out.println(hasPermission);
+		System.out.println(!hasPermission);
 		
 		
 	}
