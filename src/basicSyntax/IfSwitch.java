@@ -12,7 +12,6 @@ public class IfSwitch {
 		} else {
 			System.out.println("どちらでもありません。");
 		}
-		
 		String pref = "北海";
 		
 		switch (pref) {
