@@ -1,10 +1,9 @@
 package basicSyntax;
 
 public class ForWhile {
-
-	public static void main(String[] args) {
+	public static void main(String[] args) {	
 		for (int num = 1; num <= 100; num++) {
-			if (num % 15 == 0) {
+			if (num % 3 == 0 && num % 5 == 0) {
 				System.out.println("FizzBizz");
 			} else if (num % 3 == 0) {
 				System.out.println("Fizz");
@@ -34,3 +33,5 @@ public class ForWhile {
 	}
 
 }
+
+
