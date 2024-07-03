@@ -18,14 +18,17 @@ public class IfSwitch {
 		case "北海":
 			System.out.println("北海道");
 			break;
-			case "東京":
-				System.out.println("東京都");
-				break;
-				case"京都":
-					System.out.println("京都府");
-					break;
-					default:
-						System.out.println("当てはまりません。");
+			
+		case "東京":
+			System.out.println("東京都");
+			break;
+				
+		case"京都":
+			System.out.println("京都府");
+			break;
+			
+		default:
+			System.out.println("当てはまりません。");
 						
 		}
 		
