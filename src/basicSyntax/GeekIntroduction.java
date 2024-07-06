@@ -4,7 +4,7 @@ public class GeekIntroduction {
 
 	public static void greeting(String[] args) {
 		int age = 20;
-		double height = 175.5;
+		double height = 175.2;
 		
 		System.out.println("こんにちは!私はGeek君でごわす。");
 		System.out.println("年は" + age + "でごわす。");
