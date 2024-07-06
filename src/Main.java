@@ -1,6 +1,8 @@
+import basicSyntax.GeekIntroduction;
 
 public class Main {
 	public static void main(String[] args) {
-        System.out.println("Hello Geekation");
-	}
+		GeekIntroduction.greeting(args);
+		GeekIntroduction.specialSkill(2, 0);
+	} 
 }
